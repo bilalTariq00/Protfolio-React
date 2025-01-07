@@ -49,8 +49,8 @@ import {
   
   const services = [
     {
-      title: "JS Developer",
-      icon: web,
+      title: "MERN Developer",
+      icon: backend,
     },
     {
       title: "React Developer",
@@ -58,22 +58,18 @@ import {
     },
     {
       title: "NEXT JS Developer",
-      icon: backend,
+      icon: web,
     },
     {
-      title: "HTML,CSS",
+      title: "Vue Developer",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
+       name:"HTML",
+       icon:html,
     },
     {
       name: "JavaScript",
@@ -119,6 +115,14 @@ import {
       name: "FireBase",
       icon: firebase,
     },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name:"Node JS",
+      icon: nodejs,
+    },
   ];
   
   const experiences = [
@@ -127,7 +131,7 @@ import {
       company_name: "Self",
       icon: javascript,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2021 - April 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -140,19 +144,6 @@ import {
       company_name: "Self",
       icon: reactjs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Next JS Developer",
-      company_name: "self",
-      icon: mobile,
-      iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -162,14 +153,54 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "self",
-      icon: web,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Next JS Developer",
+      company_name: "Self",
+      icon: mobile,
+      iconBg: "#383E56",
+      date: "Jan 2023 - Oct 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "React.js Developer",
+      company_name: "Greens International",
+      icon: reactjs,
+      iconBg: "#E6DEDD",
+      date: "Oct 2023 - Feb 2024",
+      points: [
+        "Developed UI components using HTML, CSS, JavaScript, React, NextJS",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Worked with version control systems like Git for project management and collaboration..",
+      ],
+    },
+    
+    {
+      title: "Frontend Developer",
+      company_name: "Codebreaker Technologies",
+      icon: web,
+      iconBg: "#E6DEDD",
+      date: "May 2024 - Jul 2024 ",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Full Stack (MERN) Developer",
+      company_name: "Softwise Solutions",
+      icon: backend,
+      iconBg: "#E6DEDD",
+      date: "Aug 2024 - Nov 2024 ",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Practiced MongoDB Express and Node.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],

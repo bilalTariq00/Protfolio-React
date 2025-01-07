@@ -16,11 +16,11 @@ const Navbar = () => {
           window.scrollTo(0,0)
         }}>
            <img src={logo} alt="logo" className='w-10 h-10 object-contain' />
-           <p className='text-white text-[15px] font-bold cursor-pointer flex '>Bilal &nbsp; <span className='sm:block hidden'>| Developer Protfolio</span></p>
+           <p className='text-secondary text-[15px] font-bold cursor-pointer flex '>Bilal &nbsp; <span className='sm:block hidden'>| Developer Protfolio</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link)=>(
-            <li key={link.id} className={`${active===link.title?'text-white':'text-secondary'} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={()=>setActive(link.title)}>
+            <li key={link.id} className={`${active===link.title?'text-customOrangeDark':'text-secondary'} hover:text-customOrangeDark text-[18px] font-medium cursor-pointer`} onClick={()=>setActive(link.title)}>
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}

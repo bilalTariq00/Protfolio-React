@@ -12,7 +12,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full brown-beige-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => (
           className='w-16 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='text-secondary text-[20px] font-bold text-center'>
           {title}
         </h3>
       </div>
@@ -48,11 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm Muhammad Bilal, a creative and results-driven MERN and Next.js Developer with a passion for building dynamic, scalable, and user-friendly web applications. From crafting seamless front-end experiences with React and Next.js to designing robust back-end systems with Node.js and MongoDB, I thrive on turning ideas into impactful digital solutions. Let's create something extraordinary together!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
