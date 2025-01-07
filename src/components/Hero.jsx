@@ -6,23 +6,23 @@ import profilePic from '../assets/ppimg.jpeg'; // Update the path to your profil
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex items-center">
-      <div className={`${styles.paddingX} max-w-7xl mx-auto flex flex-row items-center gap-10`}>
+      <div className={`${styles.paddingX} max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-10`}>
         {/* Profile Picture */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 lg:mt-16 lg:mr-16">
           <img
             src={profilePic}
             alt="Profile"
-            className="w-60 h-auto mt-16 mr-16 rounded-full object-cover border-4 border-secondary shadow-lg"
+            className="w-40 h-40 sm:w-48 sm:h-48 lg:w-60 lg:h-60 rounded-full object-cover border-4 border-secondary shadow-lg"
           />
         </div>
 
         {/* Text Content */}
-        <div>
+        <div className="text-center lg:text-left">
           <h1 className={`${styles.heroHeadText} text-secondary`}>
             Hi, I'm <span className="text-customOrangeDark">Bilal</span>
           </h1>
           <p className={`${styles.heroSubText} mt-4 text-secondary`}>
-            I develop Next.js, user interfaces, <br className="sm:block hidden" />
+            I develop Next.js, user interfaces, <br className="hidden sm:block" />
             and web applications.
           </p>
         </div>
